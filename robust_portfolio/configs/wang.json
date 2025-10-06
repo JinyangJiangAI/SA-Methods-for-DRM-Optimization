@@ -1,0 +1,19 @@
+{
+    "device": "cuda",
+    "plot_n": 200,
+    "mix_n": 10,
+    "raw_mu_bound": [-2.5, 2.5, "e"],
+    "raw_log_sigma_bound": [-2.5, 2.5],
+    "raw_weight_bound": [-2.5, 2.5],
+    "max_iter": 100000,
+    "sample_n": 4,
+    "distortion_name": "wang",
+    "distortion_params": [-0.85],
+    "drm_n": 250,
+    "grid_pow": 0.5,
+    "lr_D_info": [0.1, 1000, 0.7],
+    "lr_q_info": [1.0, 1000, 0.71],
+    "lr_theta_info": [0.01, 1000, 0.99],
+    "h_info": [0.01, 1000, 0.14]
+  }
+  
